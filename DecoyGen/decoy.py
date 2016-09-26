@@ -61,7 +61,7 @@ def main():
     parser = optparse.OptionParser("Usage: TDB later")
     parser.add_option('-S', dest='srcAddr', type='string', help='specify spoofed address. i.e 192.168.xx.xx ')
     parser.add_option('-D', dest='dstAddr', type='string', help='specify destination address. i.e 192.168.56.xx')
-    parser.add_option('-A', dest='attack', type='string', help='simulate attack. i.e SCAN')
+    parser.add_option('-A', dest='attack', type='string', help='simulate attack. i.e scan')
 
     (options, args) = parser.parse_args()
     srcAddr = options.srcAddr
